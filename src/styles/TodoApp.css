@@ -857,3 +857,79 @@
       flex-direction: column;
     }
   }
+
+.sidebar-section {
+    background-color: var(--card-bg, white);
+    border-radius: var(--radius, 8px);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--box-shadow, 0 2px 10px rgba(0, 0, 0, 0.05));
+  }
+  
+  .sidebar-section h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: var(--text-color, #333);
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-color, #3a7bd5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    user-select: none;
+    flex-shrink: 0;
+  }
+  
+  .user-details {
+    flex: 1;
+  }
+  
+  .user-name {
+    margin: 0 0 8px 0;
+    font-weight: 500;
+    color: var(--text-color, #333);
+  }
+  
+  .logout-btn {
+    background-color: transparent;
+    color: var(--danger-color, #e74c3c);
+    border: 1px solid var(--border-color, #dcdfe6);
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: var(--danger-color, #e74c3c);
+    color: white;
+    border-color: var(--danger-color, #e74c3c);
+  }
+  
+
+  body.dark-theme .sidebar-section {
+    background-color: var(--card-bg, #1e1e1e);
+  }
+  
+  body.dark-theme .user-name {
+    color: var(--text-color, #e0e0e0);
+  }
+  
+  body.dark-theme .logout-btn {
+    border-color: var(--border-color, #3a3a3a);
+  }
