@@ -20,11 +20,11 @@ Interface responsive
 Structure
 src/
 ├── components/      # Composants UI
-├── hooks/           # Custom hooks React
+├── hooks/           # Custom hooks useTodos
 ├── layouts/         # Mise en page
-├── services/        # Logique métier et API
+├── services/        # Logique mock ou API
 ├── styles/          # CSS global et par composant
-└── types/           # Types TypeScript
+└── types/           # Types 
 Technologies
 
 React + TypeScript
