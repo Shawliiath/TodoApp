@@ -14,7 +14,7 @@ Fonctionnalités
 
 Gestion des tâches (ajout, modification, suppression)
 Thème clair/sombre
-Sauvegarde locale des données
+Sauvegarde locale des données ou via l'API
 Interface responsive
 
 Structure
